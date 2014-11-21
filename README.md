@@ -9,5 +9,5 @@ POST
   url: <host_of_pirate-curl> + '/curl4me'
   data: {url: <your_url_here>}
 
-returns page contents of <your_url_here>
+returns page contents of <your_url_here> as {result: <contents>}
 ```
