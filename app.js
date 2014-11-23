@@ -11,6 +11,7 @@ var debug = false;
 
 // all environments
 app.set('port', '9001');
+app.enable('trust proxy');
 app.use(express.logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded());
